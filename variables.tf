@@ -54,6 +54,10 @@ variable "public_subnet_cidr_tags"{
     default = {}
 }
 
+variable "database_subnet_group_tags"{
+    type = map 
+    default = {}
+}
 
 #private subnet ##
 variable "private_subnet_cidrs"{
